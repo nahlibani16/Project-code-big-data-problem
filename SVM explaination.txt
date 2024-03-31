@@ -1,0 +1,19 @@
+Penjelasan kode :
+
+Impor Modul: Langkah pertama adalah mengimpor modul-modul Python yang akan digunakan dalam skrip, seperti modul untuk berinteraksi dengan sistem operasi, membuka URL, menangani file arsip, dan lainnya.
+
+Pengaturan Variabel: Variabel diatur untuk menentukan ukuran blok untuk pembacaan data, daftar sumber data yang akan diunduh, dan path untuk menyimpan data dan hasil kerja.
+
+Persiapan Lingkungan: Langkah ini melibatkan membersihkan path yang telah ada sebelumnya, membuat path baru untuk menyimpan data, dan melepas mount direktori input Kaggle jika ada.
+
+Loop Unduhan dan Ekstraksi: Melakukan loop melalui setiap sumber data yang telah ditentukan, mendekode URL, mengunduh data, dan mengekstraknya ke direktori yang sesuai.
+
+Impor Modul dan Data: Mengimpor modul yang diperlukan untuk analisis data serta membaca data dari file CSV yang telah diekstrak sebelumnya.
+
+Pemrosesan Data: Melibatkan pembersihan dan persiapan data untuk analisis lebih lanjut, seperti memberi nama kolom dan menghapus kolom yang tidak diperlukan.
+
+Analisis Deskriptif: Menampilkan statistik deskriptif, menghitung persentase nilai yang hilang, dan memberikan informasi tentang dataset.
+
+Visualisasi Data: Membuat visualisasi data menggunakan plot sebar dan diagram kotak untuk menganalisis distribusi data.
+
+Pemodelan Pembelajaran Mesin: Memisahkan fitur dan target, melakukan penskalaan fitur, membagi data menjadi data latih dan data uji, melatih model pembelajaran mesin, dan mengevaluasi kinerjanya menggunakan metrik yang sesuai.
